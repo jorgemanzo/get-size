@@ -15,11 +15,12 @@ bool isValidint(char *txt, int size);
 
 
 bool isValidalpha(char *txt); 
-/* Takes in a unll terminated cstring and returns a bool depending if the given cstring contains all Alphabetic characters
+/* 
+ * Takes in a unll terminated cstring and returns a bool depending if the given cstring contains all Alphabetic characters
 
 bool isValidalpha(char *txt, int size);
 /*
- *  Takes in a null terminated cstring and the EXACT size of the cstring. It will return a bool depending on if the string is all Alphabetic characters if the exact size is unkown, just dont pass the size, or use getSize(char *txt) to get the exact size.
+ * Takes in a null terminated cstring and the EXACT size of the cstring. It will return a bool depending on if the string is all Alphabetic characters if the exact size is unkown, just dont pass the size, or use getSize(char *txt) to get the exact size.
 
 bool isValidalphaInt(char *txt);
 /*
