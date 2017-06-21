@@ -30,7 +30,8 @@ bool isValidalphaInt(char *txt, int size);
  * Takes in a null terminated cstring and the EXACT size of the string returning a bool depending if the characters in the string are either Alphabetical or Ints
 
 int getSize(char *txt);
-/* takes in a null terminated cstring and returns an int of that string's size
+/* 
+ * Takes in a null terminated cstring and returns an int of that string's size
 
 int getSize(const char *txt);
 /*
