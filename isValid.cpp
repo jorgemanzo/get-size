@@ -1,6 +1,12 @@
+#ifndef ISVALID_H
+#define ISVALID_H
 #include "isValid.h"
+#endif
+
 #define CLIMIT 256
+
 using namespace std;
+
 int getSize(char *txt){
     int size =0;
     for(int i = 0; i < CLIMIT; i++){
