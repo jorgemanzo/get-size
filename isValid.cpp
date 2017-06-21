@@ -1,8 +1,9 @@
 #include "isValid.h"
+#define CLIMIT 256
 using namespace std;
 int getSize(char *txt){
     int size =0;
-    for(int i = 0; i < 256; i++){
+    for(int i = 0; i < CLIMIT; i++){
         if(txt[i] != '\0'){size++;}
         else{break;}
     }
@@ -11,7 +12,7 @@ int getSize(char *txt){
 
 int getSize(const char *txt){
     int size =0;
-    for(int i = 0; i < 256; i++){
+    for(int i = 0; i < CLIMIT; i++){
         if(txt[i] != '\0'){size++;}
         else{break;}
     }
@@ -20,7 +21,7 @@ int getSize(const char *txt){
 
 bool isValidint(char *txt, int size){
     for(int i =0; i < size; i++){
-        if( (int)txt[i] >= 48 && (int)txt[i] <= 57){}
+        if( (int)txt[i] >= 48 && (int)txt[i] <= 57){}/*char is a number 0-9*/
         else{return false;}
     }
     return true;
