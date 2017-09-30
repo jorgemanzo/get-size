@@ -2,7 +2,7 @@
 Just some useful functions I wrote for C++
 These should work pretty universially for anyone working with C strings!
 
-Here is some descriptions on how these functions work (also stateed in isValid.h)
+Here is some descriptions on how these functions work (also stated in isValid.h)
 
 
 bool isValidint(char *txt);
